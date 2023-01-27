@@ -1,6 +1,6 @@
 {
            "strategies": {
-                      "array": [
+                      "object": [
       {
         "id": "1",
         "name": "ldap",
