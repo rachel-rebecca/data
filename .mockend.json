@@ -1,133 +1,26 @@
 {
-    "loading": true,
-    "error": "mock error messsage",
-    "ids": [],
-    "entities": {
-        "response": {
-            "message": "mock response"
-        },
-        "session": {
-            "userId": "1234",
-            "masqueraded": false,
-            "ip_address": "000.000.000.0",
-            "name": "Test Name",
-            "email": "email@email.com",
-            "created_at": 0,
-            "expires_at": 3600
-        },
-        "deviceSession": {
-            "deviceId": "D21234",
-            "ip_address": "198.162.000.0",
-            "expires_at": 3600
-        },
-        "currentContext": {
-            "user": {
-                "id": "1234",
-                "first_name": "Test",
-                "last_name": "Name",
-                "email": "email@email.com"
-            },
-            "masquerade": {
-                "status": false,
-                "as_user": "TestName",
-                "original_user": "TestName"
-            },
-            "permissionMatrix": {
-                "access": [
-                    {
-                        "entity": {
-                            "r": true,
-                            "w": true
-                        },
-                        "data": {
-                            "r": true,
-                            "w": true
-                        },
-                        "location": {
-                            "r": true,
-                            "w": true
-                        }
-                    }
-                ]
-            }
-        },
-        "userInfo": {
-            "first_name": "Test",
-            "last_name": "Name",
-            "email": "email@email.com",
-            "strategy_id": "1",
-            "permissions": {
-                "access": [
-                    {
-                        "entity": {
-                            "r": true,
-                            "w": true
-                        },
-                        "data": {
-                            "r": true,
-                            "w": true
-                        },
-                        "location": {
-                            "r": true,
-                            "w": true
-                        }
-                    }
-                ]
-            }
-        },
-        "authContext": {
-            "masquerade": {
-                "status": false,
-                "as_user": "TestName",
-                "original_user": "TestName"
-            },
-            "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.Ne1j7WA-57cfGxD6GWhG3PncgFs-Bsd7YKOh_majrJU",
-            "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJoZXkiOiJ3aHkgYXJlIHlvdSByZWFkaW5nIHRoaXMgZGVjb2RlZCB0b2tlbj8_PyIsInN1YiI6IjEyMzQ1Njc4OTAiLCJuYW1lIjoiSm9obiBEb2UiLCJpYXQiOjE1MTYyMzkwMjJ9.gl9lhHUxqIxwqBzEIKqTbF2V7s4O3iBH6EGQx2Gmvlc",
-            "expires_in": 3600,
-            "name": "Test Name",
-            "roles": "user",
-            "error": "error placeholder"
-        },
-        "deviceContext": {
-            "access_token": "12345678",
-            "refresh_token": "12345678",
-            "expires_in": 3600,
-            "name": "device name"
-        },
-        "jwt": {
-            "data": "JWT12345",
-             "timestamp": 0
-        },
-        "jwtContents": {
-            "userId": "1234",
-            "type": ["refresh", "access"]
-        },
-        "strategyData": {
-            "id": "1",
-            "name": "ldap",
-            "type": "ldap"
-        },
-        "strategies": [
-            {
-                "id": "1",
-                "name": "ldap",
-                "type": "ldap"
-            },
-            {
-                "id": "2",
-                "name": "local",
-                "type": "local"
-            },
-            {
-                "id": "3",
-                "name": "google",
-                "type": "oauth"
-            },
-            {
-                "id": "4",
-                "name": "sso",
-                "type": "sso"
-            }
-        ]
+    "Strategy": {
+           "strategies": [
+      {
+        "id": "1",
+        "name": "ldap",
+        "type": "ldap"
+      },
+      {
+        "id": "2",
+        "name": "local",
+        "type": "local"
+      },
+      {
+        "id": "3",
+        "name": "google",
+        "type": "oauth"
+      },
+      {
+        "id": "4",
+        "name": "sso",
+        "type": "sso"
+      }
+    ]
     }
 }
