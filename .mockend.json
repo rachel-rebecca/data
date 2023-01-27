@@ -1,8 +1,5 @@
 {
   "Strategy": {
-   "_": {
-      "items": 4
-    },
     "strategies": {
     "id": "1",
     "name": "ldap",
