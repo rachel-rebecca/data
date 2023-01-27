@@ -1,26 +1,7 @@
 {
-           "strategies": {
-                      "object": [
-      {
-        "id": "1",
-        "name": "ldap",
-        "type": "ldap"
-      },
-      {
-        "id": "2",
-        "name": "local",
-        "type": "local"
-      },
-      {
-        "id": "3",
-        "name": "google",
-        "type": "oauth"
-      },
-      {
-        "id": "4",
-        "name": "sso",
-        "type": "sso"
-      }
+           "strategy": {
+                      "strategies": ["local", "ldap", "oauth", "sso"
+      
     ]
       }
 }
