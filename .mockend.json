@@ -1,7 +1,5 @@
 {
-           "strategy": {
-                      "strategies": ["local", "ldap", "oauth", "sso"
-      
-    ]
-      }
+  "User": {
+    "title": { "string": {} }
+  }
 }
