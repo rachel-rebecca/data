@@ -1,7 +1,8 @@
 {
-  "Strategy": {
-    "strategies": {
-    "string": ["ldap"]
-    }
+  "category": {
+    "string": ["One", "Two"]
+  },
+  "code": {
+    "int": [100, 200, 300]
   }
 }
