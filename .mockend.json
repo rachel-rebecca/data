@@ -1,7 +1,9 @@
 {
   "Strategy": {
+   "_": {
+      "items": 4
+    },
     "strategies": {
-    "array" : []
-  }
-  }
+    "id": "1"
+    }
 }
