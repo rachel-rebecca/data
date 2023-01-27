@@ -1,5 +1,6 @@
 {
-           "strategies": [
+           "strategies": {
+                      "array": [
       {
         "id": "1",
         "name": "ldap",
@@ -21,4 +22,5 @@
         "type": "sso"
       }
     ]
+      }
 }
