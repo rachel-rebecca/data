@@ -1,9 +1,7 @@
 {
   "Strategy": {
     "strategies": {
-    "id": "1",
-    "name": "ldap",
-      "type": "ldap"
+    "string": ["ldap"]
     }
   }
 }
