@@ -1,5 +1,7 @@
 {
   "Strategy": {
+    "strategies": {
     "array" : []
+  }
   }
 }
