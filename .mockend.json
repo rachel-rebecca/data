@@ -1,10 +1,13 @@
 {
   "Strategy": {
-  "category": {
-    "string": ["One", "Two"]
+  "id": {
+    "string": ["1", "2", "3", "4"]
   },
-  "code": {
-    "int": [100, 200, 300]
+  "name": {
+    "string": ["local", "ldap", "google", "sso"]
+  },
+     "type": {
+    "string": ["local", "ldap", "oauth", "sso"]
   }
   }
 }
