@@ -7,10 +7,10 @@
     "string": ["1", "2", "3", "4"]
   },
   "name": {
-    "string": ["local", "ldap", "google", "sso"]
+    "string": ["okta", "oauth", "google", "sso"]
   },
      "type": {
-    "string": ["local", "ldap", "oauth", "sso"]
+    "string": ["oauth", "sso"]
   }
   }
 }
